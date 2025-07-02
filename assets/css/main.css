@@ -2677,3 +2677,19 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
+
+.projects .portfolio-content img {
+  width: 100%;
+  height: 250px; /* or any consistent height you want */
+  object-fit: cover;
+}
+  .projects .portfolio-content {
+  overflow: hidden;
+}
+.social-icons a {
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  opacity: 0.7;
+}
